@@ -1,1 +1,3 @@
-# chess-news
+# chess-news#
+author: Tarun
+test: v1
