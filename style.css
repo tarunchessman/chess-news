@@ -1,0 +1,323 @@
+/* Small devices (phones, 600px and down) */
+@media screen and (max-width:600px) {
+
+    #removeit {
+        display: none;
+    }
+
+    .container {
+        margin:0px auto;
+        width: 100%;
+    }
+    
+    body {
+
+        font-family: sans-serif;
+    }
+    
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: maroon;
+    }
+    
+    li {
+        float: left;
+      }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 5px;
+      text-decoration: underline;
+    
+    }
+    
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    
+    }
+    
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;  
+        
+    }
+    
+    i {
+        margin: 30px;
+        font-size: small;
+    }
+
+    #footer {
+        align-items: center;
+    }  
+
+    
+    
+    /* Style the navigation menu */
+    .topnav {
+    overflow: hidden;
+    background-color: maroon;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: maroon;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0px 0px 0px 0px;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: maroon;
+    color: white;
+  }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and down)
+@media screen and (min-width:601) {
+
+    .container {
+        margin:0px auto;
+        width: 100%;
+    }
+    
+    body {
+
+        font-family: sans-serif;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: maroon;
+    }
+    
+    li {
+        float: left;
+      }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 5px;
+      text-decoration: underline;
+    
+    }
+    
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    
+    }
+    
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;  
+        
+    }
+    
+    i {
+        margin: 30px;
+        font-size: small;
+    }
+
+    #footer {
+        align-items: center;
+    }
+} */
+
+
+ 
+
+
+/* Large devices (landscape tablets, 768px and up) */
+@media screen and (min-width:786px) {
+
+    .container {
+        margin:0px auto;
+        width: 700px; 
+    }
+
+    body {
+
+        font-family: sans-serif;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: maroon;
+    }
+    
+    li {
+        float: left;
+      }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      text-decoration: underline;
+    
+    }
+    
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    
+    }
+    
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;  
+        
+    }
+    
+    i {
+        margin: 30px;
+        font-size: small;
+    }
+
+    #footer {
+        align-items: center;
+    }
+
+
+      /* Style the navigation menu */
+      .topnav {
+        overflow: hidden;
+        background-color: maroon;
+        position: relative;
+      }
+      
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav a.icon {
+        background: maroon;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 0px 0px 0px 0px;
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        background-color: maroon;
+        color: white;
+      }
+}
+
+
+
+
+
+
+/* body {
+
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: maroon;
+}
+
+li {
+    float: left;
+  }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: underline;
+
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;  
+    
+}
+
+i {
+    margin: 30px;
+    font-size: small;
+} */

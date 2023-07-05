@@ -2,14 +2,106 @@
 <html>
 
 <head>
-
+    <title>Simple Chess News</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-<h1>Hello World</h1>
-<p>My first commit</p>
+    <div class="container">
+                        
+    <h1>Simple Chess News</h1>
+    <div id="removeit">
+    <ul>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <li><i class="fa fa-bars"></i></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#chessnews">Chess News</a></li>
+        <li><a href="#chessGPT">Chess GPT</a></li>
+        <li><a href="#pawnstack">Pawn Stack</a></li>
+        <li><a href="#contactus">Contact us</a></li>
+        
+    </ul>
+
+    </div>
+
+    <!-- Top Navigation Menu -->
+<div class="topnav">
+    <a href="#home" class="active">Home</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="#chessnews">News</a>
+      <a href="#chessGPT">Chess GPT</a>
+      <a href="#contactus">Contact us</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+    
+    <h2>Carlsen Wins Climactic Clash vs. Anand<hr></h2>
+    <p>In a highly-anticipated rematch, GM Magnus Carlsen defeated GM Viswanathan Anand, leading the SG
+        Alpine Warriors to an epic comeback victory and the top of the standings on day seven of the Tech
+        Mahindra Global Chess League 2023. Carlsen had great help from the invincible GM Praggnanandhaa
+        R., who won yet again to reach an unbelievable 6.5 points out of seven.
+    </p>
+
+    <p>
+        The GM <a href="https://www.chess.com/players/ian-nepomniachtchi">Ian Nepomniachtchi</a>-led Balan Alaskan Knights overtook GM <a href="https://www.chess.com/players/maxime-vachier-lagrave">Maxime Vachier-Lagrave</a>'s Upgrad
+        Mumba Masters in a match that came down to the wire as GM <a href="https://www.chess.com/players/raunak-sadhwani">Raunak Sadhwani</a> scored the sole victory
+        with sensational attacking play. 
+    </p>
+
+    <h2>Carlsen has all praises for Pragg<hr></h2>
+    <p>Carlsen shared his feelings on his teammate:<br><br><i>Well, we have this one guy who wins every single game, that kind of helps. Praggnanandhaa has
+        been an absolute star.It's not only that he wins games, its the way he wins them with class every
+        single day. Im impressed.</i></p>
+    <!-----<img src="pragg-magnus.png"></img>Cheeky Shortcut---->
+    <div class="row">
+        <div class="column">
+            <img src="pragg.png" alt="Indian Chess Player" style="width:100%">
+        </div>
+
+        <div class="column">
+            <img src="magnus.png" alt="Norwegian Chess Player" style="width:100%">
+        </div>
+    </div>
+
+    <p>GM <a href="https://www.chess.com/players/praggnanandhaa-rameshbabu">Praggnanandhaa R</a>. was the hero on the fourth day of the <a href="https://www.chess.com/events/2023-tech-mahindra-global-chess-league">Tech Mahindra Global Chess League 2023</a>
+        after scoring a win with black over UpGrad Mumba Masters' GM <a href="https://www.chess.com/players/javokhir-sindarov">Javokhir Sindarov</a>, securing victory for
+        the SG Alpine Warriors and pushing them into the sole lead.<br><br>
+
+        Despite conceding their first match loss to the UpGrad Mumba Masters, the GM <a href="https://www.chess.com/players/viswanathan-anand">Viswanathan Anand</a>-led
+        Ganges Grandmasters still sit in second place on the leaderboard with a match in hand over the first- and
+        third-placed Warriors and Masters respectively.</p><hr>
+<br>
+<div id="footer"><p>Simple Chess News is Powered by TnT</p></div>
 
 
+
+</div>
+
+<script>
+
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    
+    </script>
 </body>
+
+
+
+
+
 
 </html>
