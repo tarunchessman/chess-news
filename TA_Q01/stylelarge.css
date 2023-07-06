@@ -1,0 +1,11 @@
+@media screen and (min-width:600px) {
+    .content p{
+        background-color: #fff4cc;
+        border: 1px solid;
+        font-family:'Calibri','Gill Sans','Trebuchet MS', sans-serif;
+        text-align: left;
+        padding: 11px;
+        font-size:large
+
+    }
+}

@@ -1,0 +1,2 @@
+https://www.w3schools.com/css/css_rwd_viewport.asp
+https://www.geeksforgeeks.org/how-to-make-your-content-editable-in-html/

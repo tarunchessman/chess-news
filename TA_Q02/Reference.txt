@@ -1,0 +1,5 @@
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_rectangle
+https://www.w3schools.com/css/css_align.asp#:~:text=Center%20Align%20Elements,the%20edges%20of%20its%20container.
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_test
+https://www.w3schools.com/jsref/event_onclick.asp
+https://bobbyhadz.com/blog/javascript-change-background-color-on-click
